@@ -64,6 +64,10 @@ selected_vars = [
     'Mean cell hemoglobin (pg)',
 ]
 
+# Have user input their age:
+# **1. Add a new text input for Age**  
+age_input = st.text_input('Age', placeholder='Enter your age') 
+
 # Create input fields
 st.header("Enter Your Health Parameters")
 input_data = {}
