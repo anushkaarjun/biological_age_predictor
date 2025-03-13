@@ -41,18 +41,24 @@ if model is None or scaler is None or median_values is None:
 
 # Define the list of input features
 selected_vars = [
-    'DHEAS (µmol/L)', 'Androstenedione (nmol/L)',
-    'Anti-Mullerian hormone (pmol/L)', 'Total Cholesterol (mg/dL)',
-    'Hepatitis A antibody', 'Segmented neutrophils percent (%)',
-    'Lymphocyte percent (%)', 'Testosterone, total (nmol/L)',
-    'HS C-Reactive Protein (mg/L)', 'RBC folate (nmol/L)',
-    'Total Cholesterol (mmol/L)', 'Hemoglobin (g/dL)',
-    'Glycohemoglobin (%)', 'Progesterone (nmol/L)',
-    'Insulin (pmol/L)', 'Age in years at screening',
-    'Blood manganese (nmol/L)', 'Blood cadmium (nmol/L)',
-    '17α-hydroxyprogesterone (nmol/L)', '5-Methyl-tetrahydrofolate (nmol/L)',
-    'Fasting Subsample 2 Year MEC Weight', 'Luteinizing Hormone (mIU/mL)',
-    'Mean platelet volume (fL)', 'Mean cell volume (fL)', 'Mean cell hemoglobin (pg)',
+    'DHEAS (µmol/L)', 'Follicle Stimulating Hormone (mIU/mL)', 
+    'Androstenedione (nmol/L)', 'Anti-Mullerian hormone (pmol/L)', 
+    'Total Cholesterol (mg/dL)', 'Hepatitis A antibody', 
+    'Red blood cell count (million cells/uL)', 
+    'Segmented neutrophils percent (%)', 'Lymphocyte percent (%)', 
+    'Testosterone, total (nmol/L)', 'HS C-Reactive Protein (mg/L)', 
+    'RBC folate (nmol/L)', 'RBC folate (ng/mL)', 
+    'Total Cholesterol (mmol/L)', 'Hemoglobin (g/dL)', 
+    'Fasting Glucose (mg/dL)', 'Fasting Glucose (mmol/L)', 
+    'Glycohemoglobin (%)', 'Progesterone (nmol/L)', 
+    'Insulin (pmol/L)', 'Insulin (uU/mL)', 
+    'Red cell distribution width (%)', 'Blood manganese (nmol/L)', 
+    'Serum total folate (nmol/L)', 'Blood cadmium (nmol/L)', 
+    'Ferritin (ng/mL)', '17α-hydroxyprogesterone (nmol/L)', 
+    '5-Methyl-tetrahydrofolate (nmol/L)', 
+    'Fasting Subsample 2 Year MEC Weight', 
+    'Luteinizing Hormone (mIU/mL)', 'Mean platelet volume (fL)', 
+    'Mean cell volume (fL)', 'Mean cell hemoglobin (pg)'
 ]
 
 # User input for age
